@@ -1,0 +1,710 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Mon 5.0\n"
+"POT-Creation-Date: 2014-10-20 16:00+0100\n"
+"PO-Revision-Date: 2014-10-20 16:00+0100\n"
+"Last-Translator: Lukas Berger <dev@lukasberger.at>\n"
+"Language-Team: Lukas Berger <dev@lukasberger.at>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/WPListTable.class.php:226 lib/WPMonListTable.php:270
+#: lib/classes/WPMonListTable.class.php:230
+msgid "No items found."
+msgstr "Keine Inhalte gefunden"
+
+#: lib/WPListTable.class.php:350 lib/WPMonListTable.php:398
+#: lib/classes/WPMonListTable.class.php:354
+msgid "Bulk Actions"
+msgstr "Massenverarbeitung"
+
+#: lib/WPListTable.class.php:360 lib/WPMonListTable.php:408
+#: lib/classes/WPMonListTable.class.php:364
+msgid "Apply"
+msgstr "Anwenden"
+
+#: lib/WPListTable.class.php:444 lib/WPMonListTable.php:496
+#: lib/classes/WPMonListTable.class.php:448
+msgid "All dates"
+msgstr "Alle Termine"
+
+#. translators: 1: month name, 2: 4-digit year
+#: lib/WPListTable.class.php:457 lib/WPMonListTable.php:509
+#: lib/classes/WPMonListTable.class.php:461
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: lib/WPListTable.class.php:473 lib/WPMonListTable.php:525
+#: lib/classes/WPMonListTable.class.php:477
+msgid "List View"
+msgstr "Listenansicht"
+
+#: lib/WPListTable.class.php:474 lib/WPMonListTable.php:526
+#: lib/classes/WPMonListTable.class.php:478
+msgid "Excerpt View"
+msgstr "Teilansicht"
+
+#: lib/WPListTable.class.php:500 lib/WPMonListTable.php:559
+#: lib/classes/WPMonListTable.class.php:504
+#, php-format
+msgid "%s pending"
+msgstr "%s ausstehend"
+
+#: lib/WPListTable.class.php:755 lib/WPMonListTable.php:823
+#: lib/classes/WPMonListTable.class.php:759
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: lib/WPMonListTable.php:396
+msgid "Select bulk action"
+msgstr "Aktion für Messenverarbeitung"
+
+#: lib/WPMonListTable.php:494
+msgid "Filter by date"
+msgstr "Nach Datum filtern"
+
+#: lib/WPMonListTable.php:668
+msgid "Select Page"
+msgstr "Seite auswählen"
+
+#: lib/pages/About.page.php:18
+msgid "WP-Mon"
+msgstr "WP-Mon"
+
+#: lib/pages/About.page.php:25 lib/pages/Debug.page.php:25
+#: lib/pages/FileBrowser.page.php:89 lib/pages/Main.page.php:91
+#: lib/pages/MySQL.page.php:38 lib/pages/PHPInfo.page.php:25
+#: lib/pages/Settings.page.php:24 lib/pages/Visits.page.php:26
+msgid "You must setup the plugin first"
+msgstr "Sie müssen das Plugin zuerst einrichten"
+
+#: lib/pages/About.page.php:25 lib/pages/Debug.page.php:25
+#: lib/pages/FileBrowser.page.php:89 lib/pages/Main.page.php:91
+#: lib/pages/MySQL.page.php:38 lib/pages/PHPInfo.page.php:25
+#: lib/pages/Settings.page.php:24 lib/pages/Visits.page.php:26
+msgid "Change settings"
+msgstr "Einstellungen ändern"
+
+#: lib/pages/About.page.php:32
+msgid ""
+"Thank you for installing WP-Mon. You can read the changelog or continue the "
+"setup."
+msgstr ""
+"Danke, dass Sie WP-Mon installiert haben. Sie können den Changelog lesen "
+"oder mit den Einstellungen fortfahren"
+
+#: lib/pages/About.page.php:35
+msgid "Developer's website"
+msgstr "Website des Entwicklers"
+
+#: lib/pages/About.page.php:36
+msgid "Start now!"
+msgstr "Jetzt starten!"
+
+#: lib/pages/About.page.php:39
+msgid "Under the hood"
+msgstr "Unter der Haube"
+
+#: lib/pages/About.page.php:43 lib/pages/Main.page.php:106
+#: lib/pages/Settings.page.php:83
+msgid "Disk Space"
+msgstr "Festplattenspeicher"
+
+#: lib/pages/About.page.php:44
+msgid ""
+"Get very simple the disk space which your WordPress-Installation is used."
+msgstr ""
+"Einfach den Festplattenspeicher anzeigen, den Ihre WordPress-Installation "
+"verbraucht"
+
+#: lib/pages/About.page.php:48
+msgid "Main Memory"
+msgstr "Arbeitsspeicher"
+
+#: lib/pages/About.page.php:49
+msgid "Show your current RAM"
+msgstr "Aktuellen Arbeitsspeicher anzeigen"
+
+#: lib/pages/About.page.php:53
+msgid "Your WordPress"
+msgstr "Ihr WordPress"
+
+#: lib/pages/About.page.php:54
+msgid "Get more infos about your WordPress installation."
+msgstr "Bekommen Sie mehr Infos über Ihre WordPress-Installation"
+
+#: lib/pages/About.page.php:60 lib/pages/FileBrowser.page.php:66
+#: lib/pages/FileBrowser.page.php:410 lib/pages/FileBrowser.page.php:527
+#: lib/pages/FileBrowser.page.php:635 lib/pages/Settings.page.php:136
+msgid "File-Browser"
+msgstr "Datei-Browser"
+
+#: lib/pages/About.page.php:61
+msgid "A very simple file-browser for each user which isn't so good with FTP"
+msgstr ""
+"Ein sehr einfacher Datei-Browser für jeden Benutzer der sich nicht so gut "
+"mit FTP auskennt."
+
+#: lib/pages/About.page.php:65
+msgid "Stats"
+msgstr "Statistiken"
+
+#: lib/pages/About.page.php:66
+msgid "Stats with comments, pages and more"
+msgstr "Statistiken von Kommentaren, Seiten und mehr"
+
+#: lib/pages/About.page.php:70
+msgid "PHP configuration"
+msgstr "PHP-Konfiguration"
+
+#: lib/pages/About.page.php:71
+msgid "Important and all PHP variables at one click"
+msgstr "Wichtige PHP-Variablen auf einen Klick"
+
+#: lib/pages/About.page.php:77
+msgid "The server"
+msgstr "Der Server"
+
+#: lib/pages/About.page.php:78
+msgid "Some infos about your server like the OS oder the public IP"
+msgstr ""
+"Einige Informationen über Ihren Server wie das Betriebssystem oder die IP"
+
+#: lib/pages/About.page.php:84
+msgid "Design"
+msgstr "Design"
+
+#: lib/pages/About.page.php:88
+msgid "Using WordPress"
+msgstr "Benutzt wird WordPress"
+
+#: lib/pages/About.page.php:89
+msgid ""
+"WP-Mon only using WordPress-CSS. The result is that WP-Mon is always styled "
+"in the latest version of WordPress"
+msgstr ""
+"WP-Mon benutzt nur WordPress-CSS. Das Ergebniss ist dass WP-Mon immer im "
+"Stil der aktuellen WordPress-Version ist"
+
+#: lib/pages/About.page.php:93
+msgid "Simple but much"
+msgstr "Einfach aber viel"
+
+#: lib/pages/About.page.php:94
+msgid "WP-Mon show much infos very simple and modern"
+msgstr "WP-Mon zeigt viele Informationen einfach aber modern an"
+
+#: lib/pages/About.page.php:126
+msgid "About"
+msgstr "Über"
+
+#: lib/pages/Debug.page.php:18 lib/pages/Debug.page.php:118
+#: lib/pages/Settings.page.php:145
+msgid "Debug"
+msgstr "Debug"
+
+#: lib/pages/Debug.page.php:31
+msgid "Show all important system informations"
+msgstr "Alle wichtigen System-Informationen anzeigen"
+
+#: lib/pages/FileBrowser.page.php:25
+msgid "Enter the name for the new file"
+msgstr "Namen für die neue Datei eingeben"
+
+#: lib/pages/FileBrowser.page.php:25
+msgid "Filename"
+msgstr "Dateiname"
+
+#: lib/pages/FileBrowser.page.php:72
+msgid "Create file"
+msgstr "Datei erstellen"
+
+#: lib/pages/FileBrowser.page.php:77
+msgid "Choose file"
+msgstr "Datei auswählen"
+
+#: lib/pages/FileBrowser.page.php:78
+msgid "Select file"
+msgstr "Datei auswählen"
+
+#: lib/pages/FileBrowser.page.php:79
+msgid "Upload file"
+msgstr "Datei hochladen"
+
+#: lib/pages/FileBrowser.page.php:96 lib/pages/Main.page.php:99
+#: lib/pages/Main.page.php:108 lib/pages/Main.page.php:117
+#: lib/pages/Main.page.php:126 lib/pages/Main.page.php:135
+#: lib/pages/MySQL.page.php:139 lib/pages/PHPInfo.page.php:76
+msgid "Name"
+msgstr "Name"
+
+#: lib/pages/FileBrowser.page.php:97
+msgid "Filesize"
+msgstr "Dateigröße"
+
+#: lib/pages/FileBrowser.page.php:98
+msgid "Type"
+msgstr "Dateityp"
+
+#: lib/pages/FileBrowser.page.php:99
+msgid "Full Path"
+msgstr "Pfad"
+
+#: lib/pages/FileBrowser.page.php:113
+msgid "The file was deleted"
+msgstr "Die Datei wurde gelöscht"
+
+#: lib/pages/FileBrowser.page.php:131
+msgid "The file was uploaded"
+msgstr "Die Datei wurde hochgeladen"
+
+#: lib/pages/FileBrowser.page.php:139
+msgid "The file wasn't uploaded"
+msgstr "Die Datei wurde nicht hochgeladen"
+
+#: lib/pages/FileBrowser.page.php:150
+msgid "Copy file to this path: "
+msgstr "Kopiere die Datei zu diesem Pfad:"
+
+#: lib/pages/FileBrowser.page.php:152 lib/pages/FileBrowser.page.php:413
+#: lib/pages/FileBrowser.page.php:530
+msgid "Copy file"
+msgstr "Datei kopieren"
+
+#: lib/pages/FileBrowser.page.php:174
+msgid "Move file to this path: "
+msgstr "Verschiebe die Datei zu diesem Pfad"
+
+#: lib/pages/FileBrowser.page.php:176 lib/pages/FileBrowser.page.php:414
+#: lib/pages/FileBrowser.page.php:531
+msgid "Move file"
+msgstr "Datei verschieben"
+
+#: lib/pages/FileBrowser.page.php:199
+msgid "Enter the new name of the file: "
+msgstr "Namen für die neue Datei eingeben"
+
+#: lib/pages/FileBrowser.page.php:201 lib/pages/FileBrowser.page.php:415
+#: lib/pages/FileBrowser.page.php:532
+msgid "Rename file"
+msgstr "Datei umbennenen"
+
+#: lib/pages/FileBrowser.page.php:281
+msgid "Submit editing"
+msgstr "Aktualisieren"
+
+#: lib/pages/FileBrowser.page.php:293
+msgid "The file was edited"
+msgstr "Die Datei wurde editiert"
+
+#: lib/pages/FileBrowser.page.php:399 lib/pages/FileBrowser.page.php:516
+#: lib/pages/MySQL.page.php:160 lib/pages/MySQL.page.php:175
+msgid "Delete"
+msgstr "Löschen"
+
+#: lib/pages/FileBrowser.page.php:400 lib/pages/FileBrowser.page.php:517
+msgid "Edit"
+msgstr "Editieren"
+
+#: lib/pages/FileBrowser.page.php:401 lib/pages/FileBrowser.page.php:518
+msgid "Copy"
+msgstr "Kopieren"
+
+#: lib/pages/FileBrowser.page.php:402 lib/pages/FileBrowser.page.php:519
+msgid "Move"
+msgstr "Verschieben"
+
+#: lib/pages/FileBrowser.page.php:403 lib/pages/FileBrowser.page.php:520
+msgid "Rename"
+msgstr "Umbennenen"
+
+#: lib/pages/FileBrowser.page.php:404 lib/pages/FileBrowser.page.php:521
+msgid "View"
+msgstr "View"
+
+#: lib/pages/FileBrowser.page.php:405 lib/pages/FileBrowser.page.php:522
+msgid "Download"
+msgstr "Herunterladen"
+
+#: lib/pages/FileBrowser.page.php:411 lib/pages/FileBrowser.page.php:528
+msgid "Delete file"
+msgstr "Datei löschen"
+
+#: lib/pages/FileBrowser.page.php:412 lib/pages/FileBrowser.page.php:529
+msgid "Edit file"
+msgstr "Datei bearbeiten"
+
+#: lib/pages/FileBrowser.page.php:416 lib/pages/FileBrowser.page.php:533
+msgid "View file"
+msgstr "Datei anzeigen"
+
+#: lib/pages/FileBrowser.page.php:417 lib/pages/FileBrowser.page.php:534
+msgid "Download file"
+msgstr "Datei herunterladen"
+
+#: lib/pages/FileBrowser.page.php:593 lib/pages/FileBrowser.page.php:595
+#: lib/pages/FileBrowser.page.php:603 lib/pages/FileBrowser.page.php:605
+#: lib/pages/MySQL.page.php:208 lib/pages/MySQL.page.php:210
+#: lib/pages/MySQL.page.php:218 lib/pages/MySQL.page.php:220
+#: lib/pages/PHPInfo.page.php:81 lib/pages/PHPInfo.page.php:83
+#: lib/pages/PHPInfo.page.php:91 lib/pages/PHPInfo.page.php:93
+#: lib/pages/Visits.page.php:84 lib/pages/Visits.page.php:86
+#: lib/pages/Visits.page.php:94 lib/pages/Visits.page.php:96
+msgid "Search"
+msgstr "Suchen"
+
+#: lib/pages/Main.page.php:45
+msgid "Total Memory"
+msgstr "Gesamter Arbeitsspeicher"
+
+#: lib/pages/Main.page.php:46
+msgid "Used Memory"
+msgstr "Benutzer Arbeitsspeicher"
+
+#: lib/pages/Main.page.php:47
+msgid "Available Memory"
+msgstr "Verfügbarer Arbeitsspeicher"
+
+#: lib/pages/Main.page.php:48 lib/pages/Main.page.php:54
+msgid "Percent"
+msgstr "Prozent"
+
+#: lib/pages/Main.page.php:51
+msgid "Total Disk Space"
+msgstr "Gesamter Festplattenspeicher"
+
+#: lib/pages/Main.page.php:52
+msgid "Used Disk Space"
+msgstr "Benutzer Festplattenspeicher"
+
+#: lib/pages/Main.page.php:53
+msgid "Available Disk Space"
+msgstr "Verfügbarer Festplattenspeicher"
+
+#: lib/pages/Main.page.php:58
+msgid "Version"
+msgstr "Version"
+
+#: lib/pages/Main.page.php:59
+msgid "Language"
+msgstr "Sprache"
+
+#: lib/pages/Main.page.php:60
+msgid "Page-Title"
+msgstr "Seitentitel"
+
+#: lib/pages/Main.page.php:61
+msgid "Home"
+msgstr "Start"
+
+#: lib/pages/Main.page.php:64
+msgid "Comments"
+msgstr "Kommentare"
+
+#: lib/pages/Main.page.php:65
+msgid "Pages"
+msgstr "Seiten"
+
+#: lib/pages/Main.page.php:66
+msgid "Plugins"
+msgstr "Plugins"
+
+#: lib/pages/Main.page.php:67
+msgid "Posts"
+msgstr "Beiträge"
+
+#: lib/pages/Main.page.php:68
+msgid "Tags"
+msgstr "Tags"
+
+#: lib/pages/Main.page.php:69
+msgid "Themes"
+msgstr "Themes"
+
+#: lib/pages/Main.page.php:70
+msgid "Users"
+msgstr "Benutzer"
+
+#: lib/pages/Main.page.php:73
+msgid "Operating System"
+msgstr "Betriebssystem"
+
+#: lib/pages/Main.page.php:74
+msgid "Machine Type"
+msgstr "Computertyp"
+
+#: lib/pages/Main.page.php:75
+msgid "PHP-Version"
+msgstr "PHP-Version"
+
+#: lib/pages/Main.page.php:76
+msgid "MySQL-Version"
+msgstr "MySQL-Version"
+
+#: lib/pages/Main.page.php:77
+msgid "IP-Address"
+msgstr "IP-Addresse"
+
+#: lib/pages/Main.page.php:84
+msgid "Overview"
+msgstr "Überblick"
+
+#: lib/pages/Main.page.php:97
+msgid "Memory"
+msgstr "Arbeitsspeicher"
+
+#: lib/pages/Main.page.php:99 lib/pages/Main.page.php:108
+#: lib/pages/Main.page.php:117 lib/pages/Main.page.php:126
+#: lib/pages/Main.page.php:135 lib/pages/PHPInfo.page.php:76
+msgid "Value"
+msgstr "Wert"
+
+#: lib/pages/Main.page.php:115
+msgid "WordPress"
+msgstr "WordPress"
+
+#: lib/pages/Main.page.php:124
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: lib/pages/Main.page.php:133
+msgid "Server"
+msgstr "Server"
+
+#: lib/pages/MySQL.page.php:31 lib/pages/MySQL.page.php:241
+msgid "MySQL"
+msgstr "MySQL"
+
+#: lib/pages/MySQL.page.php:56 lib/pages/MySQL.page.php:64
+#: lib/pages/MySQL.page.php:72
+msgid "Go to overview"
+msgstr "Zum Überblick gehen"
+
+#: lib/pages/MySQL.page.php:139
+msgid "Actions"
+msgstr "Aktionen"
+
+#: lib/pages/MySQL.page.php:161 lib/pages/MySQL.page.php:176
+msgid "Truncate"
+msgstr "Leeren"
+
+#: lib/pages/MySQL.page.php:188
+msgid "Edit table"
+msgstr "Tabelle editieren"
+
+#: lib/pages/MySQL.page.php:190
+msgid "Delete table"
+msgstr "Tabelle löschen"
+
+#: lib/pages/MySQL.page.php:191
+msgid "Truncate table"
+msgstr "Tabelle leeren"
+
+#: lib/pages/MySQL.page.php:195
+msgid "Do Query"
+msgstr "Query ausführen"
+
+#: lib/pages/PHPInfo.page.php:18 lib/pages/Settings.page.php:118
+msgid "PHP-Infos"
+msgstr "PHP-Infos"
+
+#: lib/pages/PHPInfo.page.php:76
+msgid "Group"
+msgstr "Gruppe"
+
+#: lib/pages/PHPInfo.page.php:152
+msgid "PHP-Info"
+msgstr "PHP-Info"
+
+#: lib/pages/Settings.page.php:17 lib/pages/Settings.page.php:180
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/pages/Settings.page.php:44
+msgid "Settings resetted."
+msgstr "Standard-Einstellungen wiederhergestellt"
+
+#: lib/pages/Settings.page.php:54
+msgid "Settings updated."
+msgstr "Einstellungen gespeichert"
+
+#: lib/pages/Settings.page.php:86
+msgid "Megabytes"
+msgstr "Megabytes"
+
+#: lib/pages/Settings.page.php:87
+msgid "Size of disk space you can use for your WordPress-Installation"
+msgstr ""
+"Größe des Festplattenspeicher welchen Sie für Ihre WordPress-Installation "
+"benutzen können"
+
+#: lib/pages/Settings.page.php:92
+msgid "Show exceptions"
+msgstr "Ausnahmen anzeigen"
+
+#: lib/pages/Settings.page.php:95
+msgid "Show all PHP-Exceptions"
+msgstr "Alle PHP-Ausnahmen anzeigen"
+
+#: lib/pages/Settings.page.php:96
+msgid "Showing all occured PHP-Exceptions in WordPress in a message box"
+msgstr ""
+"Alle aufgetretenen Ausnahmen in PHP in WordPress in einer Nachrichten-Box "
+"anzeigen"
+
+#: lib/pages/Settings.page.php:101
+msgid "Show errors"
+msgstr "Fehler anzeigen"
+
+#: lib/pages/Settings.page.php:104
+msgid "Show all PHP-Errors"
+msgstr "Alle PHP-Fehler anzeigen"
+
+#: lib/pages/Settings.page.php:105
+msgid "Showing all occured PHP-Errors in WordPress in a message box"
+msgstr ""
+"Alle aufgetretenen Fehler in PHP in WordPress in einer Nachrichten-Box "
+"anzeigen"
+
+#: lib/pages/Settings.page.php:121
+msgid "Use \"PHP-Infos\""
+msgstr "\"PHP-Infos\" benutzen"
+
+#: lib/pages/Settings.page.php:122
+msgid "The module PHPInfo shows you every accessible PHP-Variable"
+msgstr "Das Modul PHPInfo zeigt Ihnen jede zugängliche PHP-Variable"
+
+#: lib/pages/Settings.page.php:127
+msgid "Visitor-Log"
+msgstr "Benutzer-Log"
+
+#: lib/pages/Settings.page.php:130
+msgid "Use \"Visitor-Log\""
+msgstr "\"Benutzer-Log\" benutzen"
+
+#: lib/pages/Settings.page.php:131
+msgid "Visitor-Log saves some useful infos about your visitors"
+msgstr "Benutzer-Log speichert einige nützlich Infos über Ihre Besucher"
+
+#: lib/pages/Settings.page.php:139
+msgid "Use \"File-Browser\""
+msgstr "\"Datei-Browser\" benutzen"
+
+#: lib/pages/Settings.page.php:140
+msgid ""
+"With the file-browser you can edit, delete, copy or move any file of your "
+"WordPress-Installation"
+msgstr ""
+"Mit dem Datei-Browser können sie jeder Datei Ihrer WordPress-Installation "
+"editieren, löschen, kopieren oder verschieben"
+
+#: lib/pages/Settings.page.php:148
+msgid "Use \"Debug\""
+msgstr "\"Debug\" benutzen"
+
+#: lib/pages/Settings.page.php:149
+msgid ""
+"Gather some useful infos for forums from where you need help with your "
+"WordPress"
+msgstr ""
+"Sammeln Sie nützlich Infos für Foren wo Sie mit WordPress Hilfe brauchen."
+
+#: lib/pages/Settings.page.php:173
+msgid "General"
+msgstr "Allgemein"
+
+#: lib/pages/Settings.page.php:174
+msgid "Modules"
+msgstr "Module"
+
+#: lib/pages/Visits.page.php:19 lib/pages/Visits.page.php:125
+msgid "Visits"
+msgstr "Besucher"
+
+#: lib/pages/Visits.page.php:32
+msgid "IP of last visitor"
+msgstr "IP des letzen Beuschers"
+
+#: lib/pages/Visits.page.php:33
+msgid "Time of the last visit"
+msgstr "Zeit des letzen Besuches"
+
+#: lib/pages/Visits.page.php:34
+msgid "The address of your last visitor"
+msgstr "Die Adresses Ihres letzen Besuchers"
+
+#: lib/pages/Visits.page.php:35
+msgid "The last address of your last visitor"
+msgstr "Die letzte Adresse Ihres letzten Besuchers"
+
+#: lib/pages/Visits.page.php:43
+msgid "Log-ID"
+msgstr "Log-ID"
+
+#: lib/pages/Visits.page.php:44
+msgid "IP"
+msgstr "IP"
+
+#: lib/pages/Visits.page.php:45
+msgid "Date and Time"
+msgstr "Datum und Zeit"
+
+#: lib/pages/Visits.page.php:46
+msgid "Requested address"
+msgstr "Angeforderte Adresse"
+
+#: lib/pages/Visits.page.php:47
+msgid "Last address"
+msgstr "Letzt Adresse"
+
+#: lib/pages/Visits.page.php:48
+msgid "User-Agent"
+msgstr "User-Agent"
+
+#: wp-mon-loader.php:60
+msgid "WP-Mon by"
+msgstr "WP-Mon von"
+
+#: wp-mon.php:38
+msgid "An exception occured in"
+msgstr "Eine Ausnahme trat auf in"
+
+#: wp-mon.php:38 wp-mon.php:55
+msgid "at line"
+msgstr "auf Zeile"
+
+#: wp-mon.php:55
+msgid "An error occured in"
+msgstr "Ein Fehler trat auf in"
+
+#~ msgid "Counts"
+#~ msgstr "Statistiken"
+
+#~ msgid "No results were found"
+#~ msgstr "Keine Ergebnisse gefunden"
+
+#~ msgid "%s result(s) were found"
+#~ msgstr "%s Ergebnis(se) wurden gefunden"
+
+#~ msgid "Welcome to WP-Mon"
+#~ msgstr "Willkommen zu WP-Mon"
+
+#~ msgid "What is new?"
+#~ msgstr "Was ist neu?"
+
+#~ msgid "Important and all PHP configs/variables at one click"
+#~ msgstr "Wichtige PHP-Variablen auf einen klick"
+
+#~ msgid "Plugin made by:"
+#~ msgstr "Plugin erstellt von:"
+
+#~ msgid "Website"
+#~ msgstr "Website"
